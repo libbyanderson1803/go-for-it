@@ -3,26 +3,92 @@
 <head>
 <title>Go For It | Find Sport Near You</title>
 <style>
-   body {
-       font-family: Arial;
-       text-align: center;
-   }
-   .button-container {
-       text-align: center;
-       margin: 20px 0;
-   }
-   .my-aim-btn {
-       display: inline-block;
-       padding: 12px 25px;
-       background-color: #f5f1e8;
-       border-radius: 12px;
-       text-decoration: none;
-       color: black;
-       font-weight: bold;
-   }
-   .my-aim-btn:hover {
-       background-color: #e6dfcf;
-   }
+
+    body {
+
+      font-family: "Segoe UI", Arial, sans-serif;
+
+      background: #f2f4f6;
+
+      color: #222;
+
+      margin: 0;
+
+      padding: 40px;
+
+    }
+
+    .container {
+
+      max-width: 900px;
+
+      margin: auto;
+
+    }
+
+    h1 {
+
+      text-align: center;
+
+      margin-bottom: 10px;
+
+    }
+
+    .intro {
+
+      text-align: center;
+
+      max-width: 600px;
+
+      margin: 0 auto 40px;
+
+      font-size: 16px;
+
+    }
+
+    h2 {
+
+      margin-bottom: 20px;
+
+    }
+
+    .areas {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+      gap: 20px;
+
+    }
+
+    .area-box {
+
+      background: white;
+
+      padding: 25px;
+
+      border-radius: 12px;
+
+      text-align: center;
+
+      text-decoration: none;
+
+      color: #222;
+
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+      transition: transform 0.2s, box-shadow 0.2s;
+
+    }
+
+    .area-box:hover {
+
+      transform: translateY(-4px);
+
+      box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+
+    }
 </style>
 </head>
 <body>
